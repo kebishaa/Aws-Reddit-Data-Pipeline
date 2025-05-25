@@ -3,6 +3,9 @@ This project offers a full-featured ETL pipeline for Reddit data, designed to ef
 
 # Summary of Contents
 Overview
+
 Architecture
+
 Prerequisites
+
 System Setup
