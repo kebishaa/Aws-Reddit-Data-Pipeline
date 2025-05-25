@@ -25,3 +25,27 @@ The pipeline is designed to:
 5. AWS Glue: Data cataloging and ETL jobs.
 6. Amazon Athena: SQL-based data transformation.
 7. Amazon Redshift: Data warehousing and analytics.
+
+# Prerequisites
+1. AWS Account with appropriate permissions for S3, Glue, Athena, and Redshift.
+2. Reddit API credentials.
+3. Docker Installation
+4. Python 3.9 or higher
+
+# System Setup
+1. clone the repository.
+    git clone https://github.com/kebishaa/Aws-Reddit-Data-Pipeline
+2. Create a virtual Environment
+    python3 -m venv venv
+3. Activate the virtual environment
+    source .venv/bin/activate
+4. Install the dependencies
+   pip install -r requirements.txt
+5. Rename the configuration file and the credentials to the file.
+    mv config/config.conf.example config/config.conf
+6. Starting the containers
+    docker-compose up -d
+7. Launch the Airflow web UI.
+    open http://localhost:8080
+
+
