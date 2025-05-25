@@ -37,17 +37,23 @@ The pipeline is designed to:
     ```bash
     git clone https://github.com/kebishaa/Aws-Reddit-Data-Pipeline
 2. Create a virtual Environment
+    ```bash
     python3 -m venv venv
 
-3. Activate the virtual environment
+4. Activate the virtual environment
+    ```bash
     source .venv/bin/activate
-4. Install the dependencies
-   pip install -r requirements.txt
-5. Rename the configuration file and the credentials to the file.
+6. Install the dependencies
+    ```bash
+    pip install -r requirements.txt
+8. Rename the configuration file and the credentials to the file.
+    ```bash
     mv config/config.conf.example config/config.conf
-6. Starting the containers
-    docker-compose up -d
-7. Launch the Airflow web UI.
-    open http://localhost:8080
+10. Starting the containers
+     ```bash
+     docker-compose up -d
+12. Launch the Airflow web UI.
+     ```bash
+     open http://localhost:8080
 
 
