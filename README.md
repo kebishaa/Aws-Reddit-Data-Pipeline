@@ -18,3 +18,11 @@ The pipeline is designed to:
 # Architecture
 
 ![Architecture](https://github.com/kebishaa/Aws-Reddit-Data-Pipeline/blob/main/assets/RedditDataEngineering.png?raw=true)!
+
+1. Reddit API: Source of the data.
+2. Apache Airflow & Celery: Orchestrates the ETL process and manages task distribution.
+3. PostgreSQL: Temporary storage and metadata management.
+4. Amazon S3: Raw data storage.
+5. AWS Glue: Data cataloging and ETL jobs.
+6. Amazon Athena: SQL-based data transformation.
+7. Amazon Redshift: Data warehousing and analytics.
