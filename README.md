@@ -6,3 +6,11 @@ This project offers a full-featured ETL pipeline for Reddit data, designed to ef
 ## . Architecture
 ## . Prerequisites
 ## . System Setup
+
+# Overview
+The pipeline is designed to:
+
+1. Extract data from Reddit using its API.
+2. Store the raw data into an S3 bucket from Airflow.
+3. Transform the data using AWS Glue and Amazon Athena.
+4. Load the transformed data into Amazon Redshift for analytics and querying.
