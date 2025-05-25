@@ -14,3 +14,7 @@ The pipeline is designed to:
 2. Store the raw data into an S3 bucket from Airflow.
 3. Transform the data using AWS Glue and Amazon Athena.
 4. Load the transformed data into Amazon Redshift for analytics and querying.
+
+# Architecture
+
+![Architecture](https://github.com/kebishaa/Aws-Reddit-Data-Pipeline/blob/main/assets/RedditDataEngineering.png?raw=true)!
