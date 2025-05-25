@@ -34,9 +34,10 @@ The pipeline is designed to:
 
 # System Setup
 1. clone the repository.
+    ```bash
     git clone https://github.com/kebishaa/Aws-Reddit-Data-Pipeline
 2. Create a virtual Environment
-  $ python3 -m venv venv
+    python3 -m venv venv
 
 3. Activate the virtual environment
     source .venv/bin/activate
